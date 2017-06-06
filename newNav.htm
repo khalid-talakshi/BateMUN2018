@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MUN 2018</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <div class= "info">
+  <a href="#" onclick="abc();">
+<div class= "square">
+ <br>
+<div class=  "rectangle1" id="one">
+  <br>
+  <div class= "rectangle2" id="two">
+    <br>
+    <div class= "rectangle3" id="three">
+    </div>
+  </div>
+  </div>
+</div>
+  </a>
+  </div>
+     <script>
+      $(document).ready(function() {
+        $(ul).click(function() {
+          $("square").animate({left: '250px'});
+        });
+      });
+    </script>
+  <div class= "nav">
+  <div class= "container">
+    <ul id="ls">
+      <li><a href="#" id="l1">Home</a></li>
+      <li><a href="#" id="l2">About Us</a></li>
+      <li><a href="#" id="l3">Pricing and Registration</a></li>
+      <li><a href="#" id="l4">Background Guide</a></li>
+    </ul>
+<style>
+  .nav li {
+    display:inline;
+    padding-right:10px;
+   }
+   .nav a {
+   text-decoration:none;
+   color:black;
+   }
+   .nav ul {
+   padding-top:20px;
+   margin-left:80px;
+   margin-top:-60px;
+   }
+   .nav a:hover {
+   text-decoration:underline;
+   }
+   .square {
+   width:70px;
+   height:70px;
+   background-color:darkgray;
+   }
+  .rectangle1 {
+    width:30px;
+    height:8px;
+    background-color:white;
+    margin-left:20px;
+    margin-top:-5px;
+  }
+    .rectangle2 {
+    width:30px;
+    height:8px;
+    background-color:white;
+  }
+    .rectangle3 {
+    width:30px;
+    height:8px;
+    background-color:white;
+  }
+  .info {
+    width:10%;
+    height:700px;
+  }
+  #l1 {
+    border-left:solid;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  #l2 {
+    border-left:solid;
+    border-right:solid;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;  
+  }
+  #l4 {
+    border-left:solid;
+    border-right:solid;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;   
+  }
+</style>
+  </div>
+  </div>
+</body>
+</html>
