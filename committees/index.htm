@@ -6,9 +6,13 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+                <link rel="stylesheet" href="Resources/css/queries.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="Resources/Bootstrap/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        
+
         
         <style>
             
@@ -19,7 +23,6 @@
             .carousel-inner > .item > img, .carousel-inner > .item > a > img {
                 width: 10%;
             }
-            
             
             .footer {
                 background-color: #676767;
@@ -39,7 +42,31 @@
             .footer p {
                 color: #c6c6c6;
             }
-        
+            
+            @media only screen and (max-width: 480px) {
+                
+                #title {
+                    font-size: 60px;
+                }
+
+                .display-6
+                .card-title {
+                    font-size: 30px;
+                }
+                
+                .card {
+                    width: 100%;
+                }
+            }
+            
+            @media only screen and (max-width: 767px) {
+                
+                .last-card {
+                    margin-top: 10px;
+                }
+                
+            }
+
         </style>
   
     </head>
@@ -89,7 +116,7 @@
                 
             <div class="row">
                 
-                <div class="col">
+                <div class="col-md">
                     
                     <div class="card">
                         <div class="card-block">
@@ -101,9 +128,9 @@
                 
                 </div>
                 
-                <div class="col">
+                <div class="col-md">
                     
-                    <div class="card">
+                    <div class="card last-card">
                         <div class="card-block">
                             <h4 class="card-title">UNICEF</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -129,7 +156,7 @@
                 
             <div class="row">
                 
-                <div class="col">
+                <div class="col-md">
                     
                     <div class="card">
                         <div class="card-block">
@@ -141,9 +168,9 @@
                 
                 </div>
                 
-                <div class="col">
+                <div class="col-md">
                     
-                    <div class="card">
+                    <div class="card last-card">
                         <div class="card-block">
                             <h4 class="card-title">UNICEF</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -169,7 +196,7 @@
                 
             <div class="row">
                 
-                <div class="col">
+                <div class="col-md">
                     
                     <div class="card">
                         <div class="card-block">
@@ -181,9 +208,9 @@
                 
                 </div>
                 
-                <div class="col">
+                <div class="col-md">
                     
-                    <div class="card">
+                    <div class="card last-card">
                         <div class="card-block">
                             <h4 class="card-title">UNICEF</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -203,9 +230,9 @@
                 
                 <div class="row">
                     
-                    <div class="col center div">
+                    <div class="col-md center div">
                         
-                        <a href="#" class="footer-link">Home</a>&nbsp;                    
+                        <a href="/index.htm" class="footer-link">Home</a>&nbsp;                    
                         <a href="#" class="footer-link">Conferences</a>&nbsp;                    
                         <a href="#" class="footer-link">Comittees</a>&nbsp;                    
                         <a href="#" class="footer-link">Register</a>&nbsp;                    
@@ -216,7 +243,7 @@
                 
                 <div class="row">
                     
-                    <div class="col center div">BateMUN 2018</div>
+                    <div class="col-md center div">BateMUN 2018</div>
                 
                 </div>
                 
